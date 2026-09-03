@@ -2,211 +2,460 @@
 
 ## Навигация по проекту
 
-- [Bash](/content/Bash/README.md)
-- [Git](/content/Git/README.md)
-- [Markdown](/content/Markdown.md)
-- [Mermaid](/content/Mermaid/README.md)
-- [Docker](/content/Docker/README.md)
-- [DevOps](/content/DevOps/README.md)
-- [Практические задания](/content/StudentPracticalsLabs/README.md)
-- Предметы:
-    - [Инструментальные средства разработки ПО](/content/SoftwareDevelopmentTools/README.md)
-    - [Информационные технологии](/content/IT/README.md)
-    - [Основы проектирования баз данных](/content/Basics_database_design/README.md)
-    - [Обеспечение качества функционирования компьютерных систем](/content/Ensuring_quality_computer_systems_functioning/README.md)
-    - [Поддержка и тестирование программных модулей](/content/SupportAndTesting_of_software_modules/)
+- [Todo](/Todo.md)
+- [Markdown](/Markdown.md)
+- [Bash](/content/Bash/)
+- [Docker](/content/Docker.md)
+- [Основы проектирования баз данных](/content/Basics_database_design/README.md)
+- [Обеспечение качества функционирования компьютерных систем](/content/Ensuring_quality_computer_systems_functioning/README.md)
+- [Поддержка и тестирование программных модулей](/content/SupportAndtesting_of_software_modules/README.md)
 
----
+[Минимальные технические требования для места разработчика](https://gitflic.ru/project/rurewa/cpp/file?branch=master)
 
-> [Минимальные и рекомендуемые технические требования для рабочего пространства современного it-студента](https://gitflic.ru/project/rurewa/cpp/file?branch=master)
+Минимальные требования к студентам
 
-## Навигация по документу (GOTO)
-
-- [Git](#git)
-- [WSL 2.0 для Windows 10/11](#wsl-20-для-windows-1011-может-понадобиться-для-работы-с-docker-etc)
-- [Docker](#docker-разработка-тестирование-и-запуск-различного-по)
-- [Virtual Box (Для организации контроллера домена)](/content/Linux/README.md)
-- [Минимальные настройки VSCode](#минимальные-настройки-vscode)
-- [Рекомендуемые навыки и умения](#рекомендуемые-навыки-и-умения)
-- [Вопросы к экзаменам](#вопросы-к-экзамену)
-
-**Минимальные требования к студентам:**
-
-1. Персональный компьютер с монитором (лучше два монитора) и аудиогарнитура. Хороший интернет
-1. Для изучения **IT** технологий лучше использовать какой-нибудь **Linux**, например [Альт Образование 11](https://www.basealt.ru/alt-education)
-1. Для пользователей **Linux** [инструкция по получению и настройке Альт Линукс Образование 11](/content/Linux/README.md)
-1. Для пользователей **Windows 10/11** установку приложений в Windows рекомендуется использовать [**WinGet**](https://learn.microsoft.com/ru-ru/windows/package-manager/winget/)! Проверить у себя в **PowerShell** установленный **WinGet** командой `winget --info`. Если не установлен, то:
-    - Установить [WinGet (Windows Package Manager)](https://apps.microsoft.com/detail/9nblggh4nns1?hl=ru-RU&gl=RU) или [с Github](https://github.com/microsoft/winget-cli/releases)
-1. Приложение [Teams](https://teams.microsoft.com/v2/) или браузер [Edge](https://www.microsoft.com/ru-ru/edge/download?form=MA13FW) или в **PowerShell** - `winget install Microsoft.Teams` и `winget install Microsoft.Edge`
-1. **Git** (Git-Bash) [Git-Bash](https://git-scm.com/) или установить в **PowerShell** командой `winget install Git.Git`
+1. Персональный компьютер и аудиогарнитура. [Минимальные требования](https://gitflic.ru/project/rurewa/cpp/file?branch=master)
+1. **Git** (Git-Bash) [Git-Bash](https://git-scm.com/)
 1. Регистрация в [Яндекс](https://ya.ru/) или [VK](https://vk.com/)
-1. Создать публичный репозиторий на [gitflic.ru](gitflic.ru) или [Github](github.com)
-1. **Dia** [Dia](https://ru.wikipedia.org/wiki/Dia) - `winget install gnome.Dia` (не обязательно)
-1. **VSCode** [VSCode](https://code.visualstudio.com/) или в **PowerShell** - `winget install Microsoft.VisualStudioCode`
-1. **Termux** (для Андроид) [Termux](https://termux.dev/en/) - не обязательно
-1. Компилятор **gcc** (Для Windows MSYS2) [MSYS2](https://www.msys2.org/) или [Clang](https://releases.llvm.org/download.html)  или в **PowerShell** - `winget install LLVM.LLVM` - не обязательно!
-1. **WSL 2.0** - установить Ubuntu - для **Docker** etc. [WSL 2.0 для Windows 10/11](#wsl-20-для-windows-1011-может-понадобиться-для-работы-с-docker-etc)
-1. **Docker** - [Загрузить и установить Docker-Desktop](https://www.docker.com/products/docker-desktop/) или в **PowerShell** - `winget install Docker.DockerDesktop`
-1. **Virtual Box** - для установки **Alt Образование 11** - для контроллера домена (групповые политики) - пока не обязательно!
-[Virtual Box](https://www.oracle.com/virtualization/virtualbox/) или в **PowerShell** - `winget install --id=Oracle.VirtualBox -e`
-    - [Альт Образование 11 для виртуальной машины](https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/education/x86_64/alt-education-11.0-x86_64.iso) - пока не обязательно!
-1. Нейросети [DeepSeek](https://chat.deepseek.com/), [Qwen](https://chat.qwen.ai/) и [Cursor](https://cursor.com/)
+1. Сервис [gitflic.ru](gitflic.ru) и [Github](github.com)
+1. Создать публичный репозиторий на [gitflic.ru](gitflic.ru)
+1. **Dia** [Dia](https://ru.wikipedia.org/wiki/Dia)
+1. **VSCode** [VSCode](https://code.visualstudio.com/)
+1. **Termux** (для Андроид) [Termux](https://termux.dev/en/)
+1. Компилятор **gcc** (Для Windows MinGW) [MinGW](https://www.mingw-w64.org/downloads/)
+1. **WSL 2.0** - установить Ubuntu - для БД [WSL 2.0](https://gitflic.ru/project/rurewa/education/blob?file=content%2FProgramming%2Fwsl2.md&commit=f9dc07eb6d93862b751d82c6806a1f860043b785&mode=markdown)
+1. **Virtual Box** - для установки **Alt Образование 11** - для контроллера домена (групповые политики)
+[Virtual Box](https://www.oracle.com/virtualization/virtualbox/)
+[Альт Образование 11](https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/education/x86_64/alt-education-11.0-x86_64.iso)
+1. Нейросети [DeepSeek](https://chat.deepseek.com/) и [Cursor](https://cursor.com/)
 
-> Периодически следует обновлять все установленные пользователем приложения. Это удобней делать через **PowerShell** командой `winget upgrade --all`
+### WSL 2.0 для Windows 10 (для работы с БД)
 
-Кроме этого, с помощью **WinGet** можно одновременно устанавливать сразу несколько выбранных приложений, например:
-
-```shell
-winget install Microsoft.Teams Git.Git Microsoft.VisualStudioCode Docker.DockerDesktop LLVM.LLVM gnome.Dia
-```
-
----
-
-### Git
-
-#### Минимальные настройки Git в Windows/Linux
-
-Открыть **Powersheell** или **Git-Bash**
-
-Выбрать текстовый редактор **Nano** по умолчанию
-```shell
-git config --global core.editor "nano"
-```
-Представиться системе **Git**:
-```shell
-git config --global user.name "Rosa"
-```
-> где вместо **Rosa** - ваш **username**
-```shell
-git config --global user.email "rosa@mail.ru"
-```
-> где вместо `rosa@mail.ru` - ваша почта
-
-### [Подробней о Git >>>](/content/Git/README.md)
-
----
-
-### WSL 2.0 для Windows 10/11 (может понадобиться для работы с Docker etc.)
-
-Проверить поддержку **CPU** виртуализации на вашем оборудовании
+Проверить поддержку CPU виртуализации
 
 1. В BIOS **VTx** или **AMD-V** - `enable` (Advanced configuration CPU)
 
-#### Основные этапы настройки и установки WSL 2.0
+#### Основные этапы настройки и устновки WSL 2.0
 
 1. Включение дополнения "Подсистема Windows для Linux"
-    - Выполнить `Win + R`, в диалоговом окне ввести `appwiz.cpl` и нажать **Enter**.
+    - Выполнить **Win + R**, в диалоговом окне ввести `appwiz.cpl` и нажать **Enter**.
     - Программы и компоненты -> Включение и отключение дополнительных компонентов Windows -> поставить флажок в *Подсистема Windows для Linux*
-    - Или выполните в **Windows PowerShell** (Администратор) команду: `Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform`
-    - Перезагрузить компьютер в PowerShell командой `Restart-Computer`
+    - Перезагрузить компьютер
     - Запустить **Windows PowerShell** (Администратор)
-    - Проверка подсистемы **WSL 2.0** командой `wsl --version` и `wsl --status`
-    - Обновить **WSL 2.0** командой `wsl --update`
-    - Установить **Ubuntu** `wsl --install`
-        - Когда система предложит указать имя пользователя **UNIX**, надо указать `user` и **Enter**
-        - Пароль польователя `user` - `123` (при наборе пароля он никак не отображается, но всё равно набирается) и **Enter**. Повтори пароль и **Enter**
-        - Перезагрузить компьютер
-            - После перезагрузки найти **Ubuntu** можно из **Главного меню** и запустить её как обычное приложение **Windows**
-            - Обновить **Ubuntu**: в терминале **Ubuntu** запустить команду `sudo apt list --upgradable -a && sudo apt update && sudo apt full-upgrade -y`
-            - Установить дополнительные утилиты в **Ubuntu**: в терминале **Ubuntu** запустить команду `sudo apt update && sudo apt install -y mc htop tree whois sl neofetch wget curl inxi ncdu micro xclip xsel cmatrix`
-            - Установить поддержку `g++` и `clang++` в терминале **Ubuntu**: `sudo apt update && sudo apt install -y build-essential git gdb ascii clang mingw-w64`
-            - Проверить работу **Ubuntu** командами:
-            - `uname -a` - краткая информация о системе
-            - `neofetch` - красивая информация о системе
-            - `htop` - процессы в режиме реального времени. Выйти по **Q** или **Ctrl+C**
-            - `sl`
-            - `ascii -d`
-            - `inxi -F`
-    - **(Не обязательно!)** Если обновления **Ubuntu** завершаться ошибкой, то надо в **Windows PowerShell** (Администратор) задать версию **WSL 2** по умолчанию: `wsl --set-default-version 2`
-
-> Если компьютер не тянет для **WSL 2.0** и **Docker**, то можно попробовать выполнять задачи в [**Codespace**](https://github.com/features/codespaces) (но не желательно, т.к. очень ограниченный функционал!)
+    - Проверка подсистемы WSL 2.0 командой `wsl --version`
+    - Обновить WSL 2.0 командой `wsl --update`
+    - Установить WSL 2.0 `wsl --install`
+    - Когда система предложит указать имя пользователя UNIX, надо указать `user` и Enter
+    - Пароль польователя `user` - `123` (при наборе пароля он никак не отображается, но всё равно набирается) и **Enter**. Повтори пароль и **Enter**
+    - Перезагрузить компьютер
+    - После перезагрузки найти **Ubuntu** можно из **Главного меню** и запустить её как обычное приложение **Windows**
+    - Обновить Ubuntu: в терминале Ubuntu запустить команду `sudo apt list --upgradable -a && sudo apt update && sudo apt full-upgrade -y`
+    - Установить дополнительные утилиты в Ubuntu: в терминале Ubuntu запустить команду `sudo apt update && sudo apt install -y mc htop tree whois sl neofetch wget curl inxi ncdu micro xclip xsel cmatrix`
+    - Установить поддержку g++ и clang++ в терминале Ubuntu: `sudo apt update && sudo apt install -y build-essential git gdb ascii clang mingw-w64`
+    - Проверить работу Ubuntu командами:
+        - `uname -a` - краткая информация о системе
+        - `neofetch` - красивая информация о системе
+        - `htop` - процессы в режиме реального времени. Выйти по **Q** или **Ctrl+C**
+        - `sl`
+        - `ascii -d`
+        - `inxi -F`
+    - (Не обязательно!)Если обновления Ubuntu завершаться ошибкой, то надо в **Windows PowerShell** (Администратор) задать версию WSL 2 по умолчанию: `wsl --set-default-version 2`
 
 [Основные команды для WSL](https://learn.microsoft.com/ru-ru/windows/wsl/basic-commands)
 
----
+### Docker
 
-### Docker (Разработка, тестирование и запуск различного ПО)
-
-1. [Сначал включите **WSL** на своём компьютере!](#wsl-20-для-windows-10-для-работы-с-бд)
-1. [Загрузить и установить Docker-Desktop](https://www.docker.com/products/docker-desktop/) или командой в **PowerShell** `winget install Docker.DockerDesktop`
-1. Выполнять авторизацию в **Docker-Desktop** (можно через Google), указать `personal`;
+1. [Загрузить Docker-Desktop](https://www.docker.com/products/docker-desktop/)
+1. Выполнять авторизацию в Docker-Desktop не обязательно, указать personal;
 1. Перезагрузить компьютер;
-1. Запустить **Docker Desktop** (можно добавить в автозагрузку для удобства);
-1. Установить и запустить тестовый контейнер `docker run hello-world`
-1. Если `docker run hello-world` не срабатывает, то в Ubuntu выполните `sudo service docker restart`
+1. Запустить Docker Desktop (можно добавить в автозагрузку для удобства);
+1. В Powershell выполнить ```docker images``` для показа установленных образов;
+1. Установить тестовый контейнер ```docker run hello-world```
 
-> Если компьютер не тянет в **WSL 2.0** и **Docker**, то можно ограничется [Codespace](https://github.com/features/codespaces) (но не желательно, т.к. очень ограниченный функционал!)
+[Подробный урок по Docker для начинающих](https://gitflic.ru/project/rurewa/altlinux/blob?file=content%2FDocker%2FDocker.md&branch=master&mode=markdown)
 
-> Для лучшего выполнения создания и запуска контейнеров можно использовать установленную в **WSL** систему **Ubuntu**, которую можно вызвать из **Главного меню**. Чтобы **VS Code** мог работать с **Ubuntu**, нужно в нём установить расширение **WSL** и запускать **VS Code** из командной строки **Ubuntu** командой `.code`
+### Virtual Box (Для организации контроллера домена)
 
-[Образовательные материалы по **Docker** для начинающих](/content/Docker/README.md)
+[Загрузить и установить Virtual Box](https://www.oracle.com/virtualization/virtualbox/)
 
----
 
-### [Virtual Box (Для организации контроллера домена) - пока не обязательно!](/content/Linux/README.md)
+[Создание виртуальной машины в Virtual Box 7.0 для установки Альт Образование](https://rutube.ru/video/9f1c18dafa34d0c525bbca95d4002863/)
 
----
+[Установка Альт Образование 10 без UEFI](https://rutube.ru/video/8e0549a3a10f8881efb4260c77f4973b/)
 
-### Минимальные настройки `VSCode`
+[Загрузить Альт Образование 11](https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/education/x86_64/alt-education-11.0-x86_64.iso)
 
-- Включить машстабирование по **Ctrl+WheelMouse**
-    - **Settings** -> **Zoom** -> **Mouse Wheel Zoom**
+После установки **Альт Образование 11** необходимо выполнить:
+
+**Обновление ОС:**
+
+Открыть **Терминал** (консоль) по **Ctrl+Alt+T**
+
+Войти в консоль как **root**
+```shell
+su-
+```
+
+```shell
+epm ei --auto && epm full-upgrade -y
+```
+
+перезагрузить
+
+потом:
+
+```shell
+epmi --auto newt52 lshw yt-dlp btop htop nvtop apt-repo apt-https NetworkManager-tui eget wget fd git ncdu micro xclip xsel mc tree glxgears glmark2 neofetch fastfetch whois curl inxi net-tools arp-scan aria2 alterator-grub sysctl-conf-userns
+```
+
+Проверить систему Альт Образование 11
+
+```shell
+fastfetch
+```
+
+```shell
+inxi -F
+```
+
+### Настройки VSCode
+
+- Включить машстабирование по Ctrl+WheelMouse
+    - Settings -> Zoom -> Mouse Wheel Zoom
 - Отключить Миникарту в редакторе
-    - **Settings** -> **Editor** -› **Minimap:**
-- Велючить предложения в интегрированном терминале **VSCode** -> `Settings` -> `terminal.integrated.suggest.enabled`
+    - Settings -> Editor -› Minimap:
 
 Установка расширений
 
-> ### РКН заблокировал расширения для VS Code!
-
-Временное решение:
-- [Открываем сайт загрузчика расширений https://vsix.2i.gs/](https://vsix.2i.gs/)
-- [Находим нужное вам расширение на https://marketplace.visualstudio.com/](https://marketplace.visualstudio.com/)
-- Скачиваем нужные расширения в отдельную папку и устанавливаем их через `Install From VSIX` в `Extensions` редактора **VS Code**
-
-![VS Code](/content/img/VSCODE_ext.jpg)
-
-- LiveServer (**FiveServer**) - превью локального сайта
-    - [LiveServer(FiveServer)](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server)
-- **CodeSnap** - скриншотер исходного кода
+- LiveServer (FiveServer)
+    - [LiveServer](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server)
+- CodeSnap
     - [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
-- **Trailing Spaces** - удаление "паразитных" пробелов
+- Trailing Spaces
     - [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
-  **Mermaid** - графики, блок-схемы и диаграммы в **Markdown**
-- [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
-  **Markdown Syntax Highlighting** - подсветка синтаксиса в **Mermaid**
-- [Mermaid Markdown Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=bpruitt-goddard.mermaid-markdown-syntax-highlighting)
-- [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
-- [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
 
-Открыть и закрыть интегрированный терминал **VS Code** по команде **Ctrl+~** (контрл тильда)
+Открыть и закрыть встроенный терминал по **Ctrl+~**
 
-Для запуска **VS Code** в **WSL** (Ubuntu) в Windows выполните в терминале **Ubuntu** команду:
-```shell
-code .
-```
-
-[Подробней о настройках VSCode](https://gitflic.ru/project/rurewa/education/blob?file=content/Programming/VCode.md&branch=master&mode=markdown)
-
----
 
 ### Рекомендуемые навыки и умения
 
 1. "Слепая печать" на стандартной клавиатуре
     - [Онлайн-клавиатурный тренажер](https://stamina-online.com/ru/)
-1. Эффективная работа с текстом (важные клавиатурные сокращения для редактирование)
-1. Технический английский [Золотой плейлист А. Бербис](https://vkvideo.ru/playlist/-227037029_21?ysclid=mictnz3gl4831947556)
+1. Эффективная работа с текстом
+1. Технический английский
 1. Читать тематические группы в Телеграм
-1. Git+Markdown+Mermaid+Docker+CI/CD
+1. Git+Markdown
 
----
+### Git
 
-## Вопросы к экзамену
+#### 1. Запуск Git на персональном компьютере
 
-* [Вопросы к экзамену по дисциплине «ОСНОВЫ ПРОЕКТИРОВАНИЯ БАЗ ДАННЫХ»](/content/Basics_database_design/questions.md)
-* [Вопросы к экзамену по дисциплине «ПОДДЕРЖКА И ТЕСТИРОВАНИЕ ПРОГРАММНЫХ МОДУЛЕЙ»](/content/SupportAndTesting_of_software_modules/questions.md)
-* [Вопросы к экзамену по дисциплине «ОБЕСПЕЧЕНИЕ КАЧЕСТВА ФУНКЦИОНИРОВАНИЯ КОМПЬЮТЕРНЫХ СИСТЕМ»](/content/Ensuring_quality_computer_systems_functioning/questions.md)
-* [Вопросы к экзамену по дисциплине "Инструментальные средства разработки ПО"](/content/SoftwareDevelopmentTools/questions.md)
-* [Вопросы к экзамену по дисциплине "Информационные технологии"](/content/IT/questions.md)
+Проверить утановку Git в Powershell
+```shell
+git --version
+```
 
-> Если вы обнаружили ошибку в этом тексте - сообщите пожалуйста автору!
+**Представиться системе Git (выполняется однократно, перед 1-м коммитом)**
+
+Команды представления системе Git
+
+```shell
+git config --global user.name "Rurewa"
+```
+
+> где вместо **Rurewa** - ваш username
+
+```shell
+git config --global user.email "rurewa@mail.ru"
+```
+
+> где вместо `rurewa@mail.ru` - ваша почта
+
+#### 2. Клонировать удалённый репозиторий на свой компьютер
+
+```shell
+git clone https://gitflic.ru/project/rurewa/mfua
+```
+
+> этой командой будет склонирован на ваш компьютер мой репозиторий.
+
+#### 3. Открыть папку склонированного репозитория
+
+Проверить статус текущего репозитория
+
+```shell
+git status
+```
+#### 5. Внести изменения в текущий репозиторий
+
+#### 6. Проверить изменения
+
+```shell
+git status
+```
+
+#### 7. Подготовить файлы к коммиту (добавить)
+
+```shell
+git add .
+```
+
+#### 8. Закоммитить
+
+```shell
+git commit -m "Some message"
+```
+
+#### 9. Запушить
+
+```shell
+git push
+```
+
+или, если не получилось с 1-го раза запушить, то:
+
+```shell
+git push -u origin master
+```
+
+#### 10. Проверить изменения на сайте удалённого репозитория
+
+Перейти на сайт проверяемого репозитория и обновить страницу в браузере **Ctrl-R** либо **F5**
+
+#### 11. Получить изменения из удалённого репозитория
+
+```shell
+git pull
+```
+
+#### Получить список коммитов текущего репозитория
+
+```shell
+git log
+```
+
+> чтобы выйти из списка коммитов, выполните **Q**
+
+Показать разницу каждого коммита
+
+```git log -p```
+
+Показать последний коммит
+
+```git log --stat -1```
+
+> чтобы выйти из списка коммитов, выполните **Q**
+
+показать несколько последних коммитов -2, -3 etc.
+
+```git log --stat -2```
+
+> чтобы выйти из списка коммитов, выполните **Q**
+
+Показать кратую информацию о коммитах
+
+```git log --stat```
+
+> чтобы выйти из списка коммитов, выполните **Q**
+
+Показать хеши коммитов
+
+```git log --oneline```
+
+> чтобы выйти из списка коммитов, выполните **Q**
+
+Сравнения коммитов
+
+```git diff```
+
+сравнение до git commit - m
+
+```git diff --staged```
+
+> чтобы выйти из списка коммитов, выполните **Q**
+
+Показать настройки текущего (локального) git-репозитория
+
+```git config --list```
+
+Изменение комментария последнего коммита
+
+```git commit --amend```
+
+Показать информацию об удалённом репозитории
+
+```git remote -v```
+
+```git remote show origin```
+
+Отмена изменений
+
+```git reset``` - отмена индексации
+
+```git restore```
+
+```git restore --staged``` - сработает только после ```add .```
+
+Объединить команды ```git add``` . и ```git commit -m```
+
+```git commit -a 'Some comments'```
+
+#### Основные команды bash (командная строка, консоль)
+
+**Bash** - командный интерпретатор и скриптовый язык программирования
+
+Показать текущее расположение
+
+```pwd```
+
+Показать содержимое текущего каталога
+
+```ls```
+
+```ls -all``` - включая скрытые файлы и папки
+
+Показать в виде дерева каталогов
+
+```tree```
+
+Переход в указанный каталог
+
+```cd foldername``` - где foldername - это имя целевого каталога
+
+Выйти из текущего каталога вверх по иерархии
+
+```cd ..```
+
+Вернуться в папку пользователя по умолчанию
+
+```cd ~```
+
+Создать пустой каталог
+```shell
+mkdir emptyDir
+```
+
+Создать пустой тектовый файл
+```shell
+touch emptyFile.txt
+```
+
+Показать тип файла
+```shell
+file enyFile.txt
+```
+
+Показать больше информации о файле
+```shell
+stat file1.txt
+```
+
+Показать все ранее введённые команды:
+```shell
+history
+```
+
+Показать содержимое текстового файла без его открытия
+```shell
+cat file1.txt
+```
+
+Пролистать большой текст клавишами ВВЕРХ/ВНИЗ
+```shell
+cat file1.txt | less
+```
+
+> Выйти из режима less по клавише Q
+
+Редактирование текстового файла
+```shell
+nano file1.txt
+```
+
+> Сохранить текст по **Ctrl+S**, выйти из nano по **Ctrl+X**
+
+Можно ещё установить тектовый редактор Micro и редактировать файлы в нём:
+
+```shell
+apt install micro
+```
+
+Запустить консольный текстовый редактор **Micro** для создания и редактирования текстового файла
+```shell
+micro main.cpp
+```
+
+> Соранить текст по **Ctrl+S**, выйти из редактора по **Ctrl+Q**
+
+Установить команду **tree** в Windows
+
+[Tree](https://github.com/chocolatey/choco/releases?ysclid=mh035mg6en297039295)
+
+#### Работа с git-ветками
+
+Показать локальные ветки
+
+```git branch```
+
+Показать удалённые ветки репозитория
+
+```git branch --all```
+
+Переключиться на указанную ветку
+
+```git checkout test```
+
+Объединить ветки - слияние бранчей
+
+Если нужно выполнить слияние ветки master с test, то
+
+```git merge test```
+
+из ветки *master*
+
+Если нужно выполнить слияние ветки *test* с *master*, то
+
+```git merge master```
+
+из ветки test
+
+#### Зачем нужен Git?
+
+##### Почему не флешка?
+
+1. Флешка - потенциальный разносчик вирусов
+1. Личные данные с флешки случайно могут попать на чужой компьютер
+1. Антивирус ОС может удалить данные с флешки
+1. Флешка может потеряться или сломаться
+
+##### Почему не облако типа Yandex или Google?
+
+1. Облако не контролирует версии данных
+1. Своё облако на чужом компьютере - это риск утечки личных данных
+1. Для работы с облаком на чужом компьтере необходим браузер, а это не безопасно
+1. Нет надёжной фильтрации типов файлов для загрузки и хранения в облаке
+
+##### Премущества Git
+
+1. Трудно потерять свои проекты
+1. Легко отслеживать версии прокта
+1. Легко делиться с другими людьми своими проктами
+1. Легко разрабатывать проекты совместно с другими людьми (в команде)
+1. Git по умолчанию интегрирован во многие популярные средства разработки, т.к. VSCode
+1. В Git можно создавать веб-страницы с описанием своих проектов
+1. Многие Git-сервисы предоставляют возможность автоматизации сборки ваших проектов
+
+##### Основные состояния git-репозитория
+
+1. Инициализирован - ```git status``` - показать состояние текущего репозитория
+2. Подготовлен (добавлены изменения) - ```git add .``` - добавление изменений
+3. Сохранение - ```git commit -m 'Update README.md - fix'``` - сохранение с комментарием
+4. Синхронизация с удалённым репозиторием - ```git push``` - сохранение на облачном сервисе, например `Gitflic.ru`
+
+##### Что можно сохранять в git?
+
+1. Обычно небольшие по объёму файлы,  < 40 mb.
+1. Изображения, документы, mp3, видео
+1. Все файлы с именами латинскими буквами без пробелов
+
+[Мои заметки по базовой работе с Git](https://gitflic.ru/project/rurewa/education/blob?file=content%2FGit%2FREADME.md&branch=master&mode=markdown)
