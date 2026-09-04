@@ -279,3 +279,4 @@ Docker изменил способ разработки и доставки пр
 - [Docker Hub](https://hub.docker.com/)
 - [Docker Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
 - [Play with Docker](https://labs.play-with-docker.com/) — онлайн-тренажер
+> Если вы обнаружили ошибку в этом тексте - сообщите пожалуйста автору!

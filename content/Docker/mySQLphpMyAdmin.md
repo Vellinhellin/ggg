@@ -128,3 +128,4 @@ docker compose logs -f mysql
 ```shell
 docker compose restart
 ```
+> Если вы обнаружили ошибку в этом тексте - сообщите пожалуйста автору!

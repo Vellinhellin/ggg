@@ -29,3 +29,4 @@ exit
 ```shell
 docker stop test-db && docker rm test-db
 ```
+> Если вы обнаружили ошибку в этом тексте - сообщите пожалуйста автору!

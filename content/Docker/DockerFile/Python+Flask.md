@@ -573,3 +573,4 @@ docker-compose up --build
 # 🧹 Очистка
 docker container prune
 docker image prune
+> Если вы обнаружили ошибку в этом тексте - сообщите пожалуйста автору!

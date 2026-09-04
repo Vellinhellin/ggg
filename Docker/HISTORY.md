@@ -269,3 +269,5 @@
 - [Docker: A History (InfoQ)](https://www.infoq.com/articles/docker-history/)
 - [Open Container Initiative](https://opencontainers.org/)
 
+
+> Если вы обнаружили ошибку в этом тексте - сообщите пожалуйста автору!

@@ -11,3 +11,4 @@ docker run -d \
   portainer/portainer-ce:latest
 ```
 2. [Откройте: https://localhost:9443](https://localhost:9443)
+> Если вы обнаружили ошибку в этом тексте - сообщите пожалуйста автору!
