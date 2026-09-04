@@ -7,7 +7,7 @@
 ```shell
 clear
 ```
-![alt text](/ggg/Zadacha/Primeri/img/clear.png)
+![alt text](./img/clear.png)
 
 Сбросить настройки терминала и очищает экран
 ```shell
