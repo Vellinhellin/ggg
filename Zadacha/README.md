@@ -1,3 +1,166 @@
+#  Самостоятельная работа по Bash
+
+##  Задание 1: Простая структура блога
+
+**Цель:** Создать структуру для блога с основными разделами.
+
+```bash
+mkdir -p blog/{posts,pages,images,css,js}
+```
+
+**Результат:**
+
+```text
+blog/
+├── posts/
+├── pages/
+├── images/
+├── css/
+└── js/
+```
+
+---
+
+##  Задание 2: Двухуровневая структура интернет-магазина
+
+**Цель:** Создать структуру интернет-магазина с вложенными категориями.
+
+```bash
+mkdir -p shop/{products/{electronics,clothing},users/profiles,orders}
+```
+
+**Результат:**
+
+```text
+shop/
+├── products/
+│   ├── electronics/
+│   └── clothing/
+├── users/
+│   └── profiles/
+└── orders/
+```
+
+---
+
+##  Задание 3: Структура веб-проекта с файлами
+
+**Цель:** Создать структуру веб-приложения с файлами.
+
+```bash
+mkdir -p webapp/{css,js,images/icons,pages}
+touch webapp/css/style.css
+touch webapp/js/script.js
+touch webapp/images/logo.png
+touch webapp/images/icons/favicon.ico
+touch webapp/pages/about.html
+touch webapp/index.html
+```
+
+**Результат:**
+
+```text
+webapp/
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── images/
+│   ├── logo.png
+│   └── icons/
+│       └── favicon.ico
+├── pages/
+│   └── about.html
+└── index.html
+```
+
+---
+
+##  Задание 4: Проект с шаблонами и конфигами
+
+**Цель:** Создать структуру фреймворка с конфигурациями и модулями.
+
+```bash
+mkdir -p framework/{src/{core/{config,helpers},modules/{auth,api}},tests/{unit,integration},docs,.github/workflows}
+touch framework/src/core/config/settings.json
+touch framework/src/core/helpers/utils.js
+touch framework/src/modules/auth/login.js
+touch framework/src/modules/api/router.js
+touch framework/.github/workflows/test.yml
+```
+
+**Результат:**
+
+```text
+framework/
+├── src/
+│   ├── core/
+│   │   ├── config/
+│   │   │   └── settings.json
+│   │   └── helpers/
+│   │       └── utils.js
+│   └── modules/
+│       ├── auth/
+│       │   └── login.js
+│       └── api/
+│           └── router.js
+├── tests/
+│   ├── unit/
+│   └── integration/
+├── docs/
+└── .github/
+    └── workflows/
+        └── test.yml
+```
+
+---
+
+##  Задание 5: Генерация структуры по описанию
+
+**Цель:** Создать структуру по текстовому описанию.
+
+```bash
+mkdir -p project-x/{src/{app/{controllers,models},lib/{helpers,config}},tests/{unit,e2e}}
+touch project-x/src/app/controllers/user.js
+touch project-x/src/app/controllers/product.js
+touch project-x/src/app/models/db.js
+touch project-x/src/lib/helpers/logger.js
+touch project-x/src/lib/config/settings.js
+touch project-x/.env
+touch project-x/Dockerfile
+touch project-x/docker-compose.yml
+touch project-x/tests/unit/app.test.js
+touch project-x/tests/e2e/flow.test.js
+```
+
+**Результат:**
+
+```text
+project-x/
+├── src/
+│   ├── app/
+│   │   ├── controllers/
+│   │   │   ├── user.js
+│   │   │   └── product.js
+│   │   └── models/
+│   │       └── db.js
+│   └── lib/
+│       ├── helpers/
+│       │   └── logger.js
+│       └── config/
+│           └── settings.js
+├── tests/
+│   ├── unit/
+│   │   └── app.test.js
+│   └── e2e/
+│       └── flow.test.js
+├── .env
+├── Dockerfile
+└── docker-compose.yml
+```
+
+---
+
 Сдвинуть вверх лог выполненных ранее команд
 
 **Crtl-L**
