@@ -13,18 +13,18 @@ clear
 ```shell
 reset
 ```
-![alt text](/ggg/Zadacha/Primeri/img/reset.png)
+![alt text](Primeri/img/reset.png)
 
 ```shell
 history
 ```
-![alt text](/ggg/Zadacha/Primeri/img/history.png)
+![alt text](Primeri/img/reset.png)
 
 Выполнить нужную коману из списка **History**
 ```shell
 !35
 ```
-![alt text](/ggg/Zadacha/Primeri/img/35.png)
+![alt text](Primeri/img/35.png)
 
 где **35**  - это № команды из списка
 
@@ -32,7 +32,7 @@ history
 ```shell
 !!
 ```
-![alt text](/ggg/Zadacha/Primeri/img/36.png)
+![alt text](Primeri/img/36.png)
 
 Автодополнение команд выполнятся по `TAB`
 
@@ -46,19 +46,19 @@ history
 ```shell
 pwd
 ```
-![alt text](/ggg/Zadacha/Primeri/img/pwd.png)
+![alt text](Primeri/img/pwd.png)
 
 Показать содержимое текущего каталога
 ```shell
 ls
 ```
-![alt text](/ggg/Zadacha/Primeri/img/ls.png)
+![alt text](Primeri/img/ls.png)
 
 Показать содержимое указанного каталога
 ```shell
 ls shop
 ```
-![alt text](/ggg/Zadacha/Primeri/img/ls_shop.png)
+![alt text](Primeri/img/ls_shop.png)
 
 Показать подробное содержимое текущего каталога
 ```shell
@@ -68,31 +68,31 @@ ll
 ```shell
 ls --all
 ```
-![alt text](/ggg/Zadacha/Primeri/img/ll.png)
+![alt text](Primeri/img/ll.png)
 
 Показать подробное содержимое указанного каталога
 ```shell
 ll dir_name
 ```
-![alt text](/ggg/Zadacha/Primeri/img/ll_shop.png)
+![alt text](Primeri/img/ll_shop.png)
 
 Показать содержимое в виде дерева
 ```shell
 tree
 ```
-![alt text](/ggg/Zadacha/Primeri/img/tree.png)
+![alt text](Primeri/img/tree.png)
 
 Вернуться в домашний каталог текущего пользователя
 ```shell
 cd ~
 ```
-![alt text](/ggg/Zadacha/Primeri/img/cd1.png)
+![alt text](Primeri/img/cd1.png)
 
 Вернуться в предыдущую папку
 ```shell
 cd -
 ```
-![alt text](/ggg/Zadacha/Primeri/img/cd2.png)
+![alt text](Primeri/img/cd2.png)
 
 **/** - знак корня директории
 
@@ -102,7 +102,7 @@ cd -
 ```shell
 cd dir_name
 ```
-![alt text](/ggg/Zadacha/Primeri/img/cd3.png)
+![alt text](Primeri/img/cd3.png)
 
 где `dir_name` - это имя нужного вам каталога
 
@@ -110,13 +110,13 @@ cd dir_name
 ```shell
 cd ..
 ```
-![alt text](/ggg/Zadacha/Primeri/img/cd4.png)
+![alt text](Primeri/img/cd4.png)
 
 Выйти из текущего каталога на 2 шага вверх
 ```shell
 cd ../..
 ```
-![alt text](/ggg/Zadacha/Primeri/img/cd5.png)
+![alt text](Primeri/img/cd5.png)
 
 ### Linux
 
@@ -124,35 +124,35 @@ cd ../..
 ```shell
 lsb_release -a
 ```
-![alt text](/ggg/Zadacha/Primeri/img/lsb_realise.png)
+![alt text](Primeri/img/lsb_realise.png)
 
 Показать красивую ин-фу по системе
 ```shell
 neofetch
 ```
-![alt text](/ggg/Zadacha/Primeri/img/neofetch.png)
+![alt text](Primeri/img/neofetch.png)
 
 Показать подробную ин-фу по системе
 ```shell
 inxi -F
 ```
-![alt text](/ggg/Zadacha/Primeri/img/inxi.png)
+![alt text](Primeri/img/inxi.png)
 
 Показать ин-фу о текущем пользователе
 ```shell
 w
 ```
-![alt text](/ggg/Zadacha/Primeri/img/w.png)
+![alt text](Primeri/img/w.png)
 
 или
 ```shell
 id
 ```
-![alt text](/ggg/Zadacha/Primeri/img/id.png)
+![alt text](Primeri/img/id.png)
 
 Показать время
 ```shell
 date
 ```
 
-![alt text](/ggg/Zadacha/Primeri/img/date.png)
+![alt text](Primeri/img/date.png)
