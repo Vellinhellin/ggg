@@ -113,4 +113,3 @@ docker run --rm my-java-app
 ```
 
 Вы должны увидеть: `Hello, World! from Dockerized Java! 🐳`
-> Если вы обнаружили ошибку в этом тексте - сообщите пожалуйста автору!
